@@ -1,8 +1,8 @@
 user_respond = 0
 
 def begin_story():
-  print("You bumped to a random man dressed in black,told you to take the fancy dragon ring?. What do you do?")
-  print("choose your dicision by the given number")
+  print("You bumped into a random man dressed in black, he told you to take a fancy dragon ring?. What do you do?")
+  print("choose your decision by the given number")
   user_respond = int(input("1.Don't take the ring. \n2.Take the ring from him.\n3.Why would you give me this ring"))
   the_ring (user_respond)
     
@@ -19,7 +19,7 @@ def the_ring(user_respond):
   return user_respond
 
 def take_the_ring():
-  print("You took the offer from him but he handed you a folded note you looked at it looked back up but he vanished in a sec.While panicking you try to think.")
+  print("You took the offer from him but he handed you a folded note you look at it look back up and was vanished in a sec. While panicking you try to think.")
   user_respond = int(input("1.Read the note that's folded. \n2.Try to pinch your self to check if you're dreaming. \n3.Throw the ring away"))
   ring(user_respond) 
 
